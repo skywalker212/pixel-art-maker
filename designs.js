@@ -17,6 +17,7 @@ $('#inputHeight').keyup(function(evt) {
 
 $('#sizePicker').submit(function(event) {
   event.preventDefault();
+  $('.help-text').hide();
   makeGrid();
 });
 
@@ -39,5 +40,4 @@ $('#pixelCanvas').on('click', '.btn', function(event) {
   console.log(color);
   var target = $(event.target);
   target.css('background-color', color);
-  console.log(target);
 });

@@ -1,19 +1,42 @@
 body {
   text-align: center;
+  font-family: 'Roboto Mono';
 }
 
-h1 {
-  font-family: Monoton;
-  font-size: 70px;
+.header {
+  font-size: 40px;
   margin: 0.2em;
 }
 
-h2 {
-  margin: 1em 0 0.25em;
+.colorpick {
+  display: inline;
+  font-size: 20px;
 }
 
-h2:first-of-type {
-  margin-top: 0.5em;
+.color {
+  margin: 20px 0;
+}
+
+.gridpick {
+  display: inline;
+  font-size: 20px;
+}
+
+.gridset {
+  margin: 20px 0;
+}
+
+#sizePicker {
+  display: inline;
+}
+
+.submit-btn {
+  color: #fff;
+  background-color: #007bff;
+  display: inline-block;
+  white-space: nowrap;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
 }
 
 table,
